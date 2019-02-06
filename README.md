@@ -28,7 +28,7 @@ The first thing you need to learn in the command-line is how to navigate the fil
 ### Question 2: Installing and Controlling Programs
 One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this question, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
 
-2a. Install a program called `inxi`.
+2a. Install a program called `inxi`.  
 2b. Open up documentation for `inxi` in the terminal to see what it does. [Hint](https://en.wikipedia.org/wiki/Man_page)  
 2c. Use `inxi` to show basic information about your Audio/sound card without extra information  
 2d. Uninstall `inxi`  
