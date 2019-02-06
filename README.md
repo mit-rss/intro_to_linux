@@ -1,5 +1,5 @@
 # Intro to Linux
-Linux is an essential part of the class, so it's important to get some experience with this before working with the robots. Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have general questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189) so other students can benefit from the answer. If you have a question about your individual submission, please make a private post. Make sure you're using an Ubuntu terminal if you're testing the commands. Instructions for setting up the course software is [here](https://github.com/mit-rss/base_installation). Alternatively, you can use your athena terminal to test commands by typing `ssh athena.dialup.mit.edu -l <kerberos>` in your terminal although some commands may not work. 
+Linux is an essential part of the class, so it's important to get some experience with this before working with the robots. Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have general questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189) so other students can benefit from the answer. If you have a question about your individual submission, please make a private post. Make sure you're using an Debian terminal if you're testing the commands. Instructions for setting up the course software is [here](https://github.com/mit-rss/base_installation). Alternatively, you can use your athena terminal to test commands by typing `ssh athena.dialup.mit.edu -l <kerberos>` in your terminal although some commands may not work. 
 ### Gradescope Submission
 In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1a_exercises_linux. The format of the file will be specified in question 4. Your submission will not get graded properly if you don't put it in the right format
 ### References
@@ -33,7 +33,7 @@ One of the awesome features of UNIX-based operating systems is how simple it is 
 2c. Use `inxi` to show basic information about your Audio/sound card without extra information  
 2d. Uninstall `inxi`  
 2e. Open firefox using the terminal  
-2f. Update the list of available Ubuntu packages  
+2f. Update the list of available Debian packages  
 2g. Upgrade all existing packages  
 ### Question 3: ssh
 Another cool feature that you will be using often in this class is SSH, which enables you to access the terminals of other Linux-powered remote devices or systems as long as you have access credentials. This is how you will access the racecars. 
