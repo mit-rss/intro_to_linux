@@ -46,7 +46,7 @@ Another cool feature that you will be using often in this class is SSH, which en
 ### Question 4: Practice  
 Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in questions 1-3, you might find `grep`, `|`, `>`, `>>`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, etc useful. We encourage you to work incrementally, use the internet as a resource, and write down commands that are helpful as you go. 
 
-Please preform the following modifications to the `lab1/` directory:   
+Please perform the following modifications to the `lab1/` directory:   
 1. Any file with the extension `.txt` that does not contain 10 lines is corrupted and should be deleted from the whole directory. The names of the files that are deleted should be written in a file called `deleted_files.txt` with 1 filename per line in ascending numerical order.   
 2. Out of the remaining `.txt` files with 10 lines, the ones that contain the string "IMPORTANT" should be placed in a new directory named `important/`. The rest of the `.txt` files should be placed in another new directory named `unimportant/`.   
 3. After reorganizing all the `.txt` files, add the file named `linux_exercise.txt` that contains your answers to questions 1-3 into the `lab1/` directory.   
