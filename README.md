@@ -11,7 +11,7 @@ If you don't have previous experience with linux, we recommend that you read the
 5. [Pipes and filters](https://swcarpentry.github.io/shell-novice/04-pipefilter/)
 6. [Finding things](https://swcarpentry.github.io/shell-novice/07-find/)
 ### Instructions
-1. Clone this repository
+1. Clone this repository by typing `git clone https://github.com/mit-rss/intro_to_linux.git` into your terminal
 2. Place your answers to 1-3 in `linux_exercise.txt`. Every command should go between the #####<question_number>####### and #####End of Question####### lines
 3. During this class, you will need to be familiar with at least one terminal-based text editor like vim, nano, emacs. We recommend getting some practice with a terminal-based text editor when you're editing `linux_exercise.txt`. 
 4. Run `sanity_checker.py` to double check that your answers are correctly formatted
