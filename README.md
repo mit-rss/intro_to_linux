@@ -23,7 +23,7 @@ The first thing you need to learn in the command-line is how to navigate the fil
 1a. Navigate to your home directory  
 1b. Navigate to your root directory  
 1c. Navigate to the parent directory of your current directory  
-1d. List all the files/directories in your home directory, including hidden ones in long listing format  
+1d. List all the files/directories in your home directory, including hidden ones, in long listing format  
 1e. Print your current working directory  
 ### Question 2: Installing and Controlling Programs
 One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this question, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
