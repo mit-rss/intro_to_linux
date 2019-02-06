@@ -1,7 +1,7 @@
 # Linux
 Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189)
 ### Gradescope Submission
-In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1_linux_exercise. The format of the file will be specified in question 4. 
+In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1a_exercises_linux. The format of the file will be specified in question 4. 
 ### References
 If you don't have previous experience with linux, we recommend that you read the following tutorials by the Software Carpentry Foundation before starting on the exercises. Otherwise, you can just use the resources as you need. 
 1. [Setup](https://swcarpentry.github.io/shell-novice/setup.html)
