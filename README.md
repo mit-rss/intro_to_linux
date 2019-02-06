@@ -1,7 +1,7 @@
 # Intro to Linux
-Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189)
+Linux is an essential part of the class, so it's important to get some experience with this before working with the robots. Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have general questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189) so other students can benefit from the answer. If you have a question about your individual submission, please make a private post. Make sure you're using an Ubuntu terminal if you're testing the commands. Instructions for setting up the course software is [here](https://github.com/mit-rss/base_installation). Alternatively, you can use your athena terminal to test by typing `ssh athena.dialup.mit.edu -l <kerberos>` in your terminal although some commands may not work. 
 ### Gradescope Submission
-In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1a_exercises_linux. The format of the file will be specified in question 4. 
+In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1a_exercises_linux. The format of the file will be specified in question 4. Your submission will not get graded properly if you don't put it in the right format
 ### References
 If you don't have previous experience with linux, we recommend that you read the following tutorials by the Software Carpentry Foundation before starting on the exercises. Otherwise, you can just use the resources as you need. 
 1. [Setup](https://swcarpentry.github.io/shell-novice/setup.html)
@@ -36,15 +36,15 @@ One of the awesome features of UNIX-based operating systems is how simple it is 
 2f. Update the list of available Ubuntu packages  
 2g. Upgrade all existing packages  
 ### Question 3: ssh
-Another cool feature that you will be using often in this class is SSH, which enables you to access the terminals of other Linux-powered remote devices or systems as long as you have access credentials. This is how you will access the racecars. The following answers won't do anything if you run it now, but supply the command anyways.   
+Another cool feature that you will be using often in this class is SSH, which enables you to access the terminals of other Linux-powered remote devices or systems as long as you have access credentials. This is how you will access the racecars. 
 
-3a. Log into a remote shell with the IP address 192.168.0.101 and username "racecar"   
+3a. Log into a remote shell with the IP address 192.168.0.101 and username "racecar". This probably won't do anything if you try to run it now.    
 3b. Exit the ssh session    
 3c. Using the scp command from your local terminal, move the file at path `~/Documents/image.png` on your native machine into the folder `~/Pictures` on the machine in part a. This is useful for transferring files between your computer and the racecar.     
-3d. Add an [alias](http://www.linfo.org/alias.html) to the end of your `~/.bashrc` file that runs `ls -alF` when you type `ll`. The .bashrc file is executed every time you start a new shell, so this allows you to create shortcuts for longer commands
+3d. Add an [alias](http://www.linfo.org/alias.html) to the end of your `~/.bashrc` file that runs `ls -alF` when you type `ll`. The .bashrc file is executed every time you start a new shell, so this allows you to create shortcuts for longer commands. Try typing `source ~/.bashrc` after and testing out the alias. 
 
 ### Question 4: Practice  
-Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in questions 1-3, you might find `grep`, `|`, `>`, `>>`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, etc useful. We encourage you to work incrementally, use the internet as a resource, and write down commands that are helpful as you go. 
+Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in questions 1-3, you might find `grep`, `|`, `>`, `>>`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, `for`, etc useful. We encourage you to work incrementally, use the internet as a resource, and write down commands that are helpful as you go. 
 
 Please perform the following modifications to the `lab1/` directory:   
 1. Any file with the extension `.txt` that does not contain 10 lines is corrupted and should be deleted from the whole directory. The names of the files that are deleted should be written in a file called `deleted_files.txt` with 1 filename per line in ascending numerical order.   
