@@ -41,7 +41,7 @@ Another cool feature that you will be using often in this class is SSH, which en
 3a. Log into a remote shell with the IP address 192.168.0.101 and username "racecar". This probably won't do anything if you try to run it now.    
 3b. Exit the ssh session    
 3c. Using the scp command from your local terminal, move the file at path `~/Documents/image.png` on your native machine into the folder `~/Pictures` on the machine in part a. This is useful for transferring files between your computer and the racecar.     
-3d. Add an [alias](http://www.linfo.org/alias.html) to the end of your `~/.bashrc` file that runs `ls -alF` when you type `ll`. The .bashrc file is executed every time you start a new shell, so this allows you to create shortcuts for longer commands. Try typing `source ~/.bashrc` after and testing out the alias. 
+3d. Add an [alias](http://www.linfo.org/alias.html) to the end of your `~/.bashrc` file that runs `ls -alF` when you type `ll`. The .bashrc file is executed every time you start a new shell, so this allows you to create shortcuts for longer commands. You can test your command by typing `source ~/.bashrc` and typing `ll`. 
 
 ### Question 4: Practice  
 Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in questions 1-3, you might find `grep`, `|`, `>`, `>>`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, `for`, etc useful. We encourage you to work incrementally, use the internet as a resource, and write down commands that are helpful as you go. 
