@@ -1,7 +1,9 @@
 # Intro to Linux
 Linux is an essential part of the class, so it's important to get some experience with this before working with the robots. Although you're encouraged to collaborate with others if you are stuck, the lab should be completed individually so you can get practice with skills that will be essential later on in the course when you are in teams. If you have general questions, please post on [Piazza](https://piazza.com/class/jrql7urlkqn189) so other students can benefit from the answer. If you have a question about your individual submission, please make a private post. Make sure you're using an Debian terminal if you're testing the commands. Instructions for setting up the course software is [here](https://github.com/mit-rss/base_installation). Alternatively, you can use your athena terminal to test commands by typing `ssh athena.dialup.mit.edu -l <kerberos>` in your terminal although some commands may not work. 
 ### Gradescope Submission
-In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1a_exercises_linux. The format of the file will be specified in question 4. Your submission will not get graded properly if you don't put it in the right format. This lab is due on February 13th at 1:00PM.
+In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1a_exercises_linux. The format of the file will be specified in question 4. Your submission will not get graded properly if you don't put it in the right format.     
+     
+This lab is due on **February 13th at 1:00PM EST**.
 ### References
 If you don't have previous experience with linux, we recommend that you read the following tutorials by the Software Carpentry Foundation before starting on the exercises. Otherwise, you can just use the resources as you need. 
 1. [Setup](https://swcarpentry.github.io/shell-novice/setup.html)
