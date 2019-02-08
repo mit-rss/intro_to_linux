@@ -3,7 +3,7 @@ Linux is an essential part of the class, so it's important to get some experienc
 ### Gradescope Submission
 In order to get credit for this assignment, you will submit a `.zip` file to [Gradescope](https://gradescope.com/) under lab1a_exercises_linux. The format of the file will be specified in question 4. Your submission will not get graded properly if you don't put it in the right format.     
      
-This lab is due on **February 13th at 1:00PM EST**.
+This lab is due on **Wednesday, February 13th at 1:00PM EST**.
 ### References
 If you don't have previous experience with linux, we recommend that you read the following tutorials by the Software Carpentry Foundation before starting on the exercises. Otherwise, you can just use the resources as you need. 
 1. [Setup](https://swcarpentry.github.io/shell-novice/setup.html)
