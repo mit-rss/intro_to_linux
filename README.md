@@ -59,3 +59,5 @@ As a summary, the final zipped folder should contain the following:
 *deleted_files.txt  
 *important/  
 *unimportant/  
+
+Notes: Make sure you are using the provided VM or an Ubuntu machine when doing question 4 or weird things might happen when it's graded
