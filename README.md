@@ -15,7 +15,7 @@ If you don't have previous experience with linux, we recommend that you read the
 ### Instructions
 1. Clone this repository by typing `git clone https://github.com/mit-rss/intro_to_linux.git` into your terminal
 2. Place your answers to 1-3 in `linux_exercise.txt`. Every command should go between the #####<question_number>####### and #####End of Question####### lines
-3. During this class, you will need to be familiar with at least one terminal-based text editor like vim, nano, emacs. We recommend getting some practice with a terminal-based text editor when you're editing `linux_exercise.txt`. 
+3. During this class, you will need to be familiar with at least one terminal-based text editor like [vim](https://www.vim.org/), [nano](https://www.nano-editor.org/), [emacs](https://www.gnu.org/software/emacs/). We recommend getting some practice with a terminal-based text editor when you're editing `linux_exercise.txt`. 
 4. Run `sanity_checker.py` to double check that your answers are correctly formatted
 5. Provide a single command for each of the following questions. If multiple answers are possible, choose the shortest answer. All of your commands should work regardless of your current working directory. [Hint](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html)
 6. Continue onto question 4 to find out how to submit your answers
