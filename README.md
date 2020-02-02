@@ -60,10 +60,11 @@ Please perform the following modifications to the `lab1/` directory:
 3. After reorganizing all the `.txt` files, add the file named `linux_exercise.txt` that contains your answers to questions 1-3 into the `lab1/` directory.
 4. Zip the folder into a file called `lab1.zip`
 
-As a summary, the final zipped folder should contain the following:     
-*linux_exercise.txt  
-*deleted_files.txt  
-*important/  
-*unimportant/  
+As a summary, the final zipped folder should contain the following:  
+
+* linux\_exercise.txt  
+* deleted\_files.txt  
+* important/  
+* unimportant/  
 
 Notes: Make sure you are using the provided VM or an Ubuntu machine when doing question 4 or weird things might happen when it's graded
