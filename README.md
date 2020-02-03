@@ -81,7 +81,7 @@ One of the awesome features of UNIX-based operating systems is how simple it is 
 
 2a. Install a program called `inxi`.  
 2b. Open up documentation for `inxi` in the terminal to see what it does. [Hint](https://en.wikipedia.org/wiki/Man_page)  
-2c. Use `inxi` to show basic information about your Audio/sound card without extra information  
+2c. Use `inxi` to show information about your Audio/sound card  
 2d. Uninstall `inxi`  
 2e. Open firefox using the terminal  
 2f. Update the list of available Debian packages  
