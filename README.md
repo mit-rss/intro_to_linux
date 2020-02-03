@@ -20,6 +20,9 @@ athena.dialup.mit.edu -l <kerberos>` in your terminal although some
 commands may not work.
 
 ### Gradescope Submission
+
+_**Note:** Unfortunately, Gradescope is not yet fully set up as of today. It will be set up by Wednesday, February 5. At that time, you should check this document again for updates and follow the instructions for submitting your answers._
+
 In order to get credit for this assignment, you will submit a `.zip`
 file to [Gradescope](https://gradescope.com/) under
 lab1a_exercises_linux. The format of the file will be specified in
