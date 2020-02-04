@@ -22,10 +22,8 @@ should work, although a few of them may not.
 
 ### Gradescope Submission
 
-_**Note:** Gradescope is currently being set up and will be available on or before Tuesday, February 4th. Please make sure to submit your answers before the deadline!_
-
 In order to get credit for this assignment, you will submit a `.zip`
-file to [Gradescope](https://gradescope.com/) under
+file to [Gradescope](https://www.gradescope.com/courses/87663) under
 **Lab 1A: Intro To Linux**. The format of the file will be specified in
 Question 4. Your submission will not get graded properly if you don't
 put it in the right format.
