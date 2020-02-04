@@ -21,12 +21,12 @@ commands may not work.
 
 ### Gradescope Submission
 
-_**Note:** Unfortunately, Gradescope is not yet fully set up as of today. It will be set up by Wednesday, February 5. At that time, you should check this document again for updates and follow the instructions for submitting your answers._
+_**Note:** Gradescope is currently being set up and will be available on or before Tuesday, February 4th. Please make sure to submit your answers before the deadline!_
 
 In order to get credit for this assignment, you will submit a `.zip`
 file to [Gradescope](https://gradescope.com/) under
-lab1a_exercises_linux. The format of the file will be specified in
-question 4. Your submission will not get graded properly if you don't
+**Lab 1A: Intro To Linux**. The format of the file will be specified in
+Question 4. Your submission will not get graded properly if you don't
 put it in the right format.
           
 This lab is due on **Monday, February 10th at 1:00PM EST**.
