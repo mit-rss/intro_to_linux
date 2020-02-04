@@ -15,9 +15,10 @@ individual submission, please make a private post. Make sure you're
 using an Debian terminal if you're testing the commands. Instructions
 for setting up the course software is
 [here](https://github.com/mit-rss/base_installation). Alternatively,
-you can use your athena terminal to test commands by typing `ssh
-athena.dialup.mit.edu -l <kerberos>` in your terminal although some
-commands may not work.
+you can use your Athena terminal to test commands by typing `ssh
+<kerberos>@athena.dialup.mit.edu` in your terminal, substituting
+`<kerberos>` for your own kerberos username. Most of the commands below
+should work, although a few of them may not.
 
 ### Gradescope Submission
 
