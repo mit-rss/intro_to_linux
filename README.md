@@ -107,7 +107,7 @@ Now that you're familiar with the basics of the command line, complete the follo
 
 Please perform the following modifications to the `lab1/` directory:
 
-1. Any file with the extension `.txt` that does not contain 10 lines is corrupted and should be deleted from the whole directory. The names of the files that are deleted should be written in a file called `deleted_files.txt` with 1 filename per line in ascending numerical order.   
+1. Any file with the extension `.txt` that does not contain 10 lines is corrupted and should be deleted from the whole directory. The names of the files that are deleted should be written in a file called `deleted_files.txt` with 1 filename per line in **ascending numerical order** (_not alphabetical order_).   
 2. Out of the remaining `.txt` files with 10 lines, the ones that contain the string "IMPORTANT" should be placed in a new directory named `important/`. The rest of the `.txt` files should be placed in another new directory named `unimportant/`.   
 3. After reorganizing all the `.txt` files, add the file named `linux_exercise.txt` that contains your answers to questions 1-3 into the `lab1/` directory.
 4. Zip the folder into a file called `lab1.zip`
