@@ -119,6 +119,10 @@ As a summary, the final zipped folder should contain the following:
 * important/  
 * unimportant/  
 
+**Remember:** The shell and filesystem are case sensitive (unlike on Windows!).
+Therefore, we expect correct use of upper and lower case in the commands and
+files in your submission.
+
 Notes: Make sure you are using the provided VM or an Debian or Ubuntu
 machine when doing question 4 or weird things might happen when it's
 graded.
