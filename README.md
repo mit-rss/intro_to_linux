@@ -28,7 +28,7 @@ file to [Gradescope](https://www.gradescope.com/courses/87663) under
 Question 4. Your submission will not get graded properly if you don't
 put it in the right format.
           
-This lab is due on **Monday, February 10th at 1:00PM EST**.
+This lab is due on **Wednesday, March 3rd at 1:00PM EST**.
 
 ### References
 If you don't have previous experience with Linux, we recommend that
