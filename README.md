@@ -1,6 +1,7 @@
 
-| **Due Date**  | **Wednesday, February 24th at 1:00PM EST**     |
-|---------------|---------------------------------------------|
+| **Due Date**  | **Wednesday, February 24th at 1:00PM EST**                                 |
+|---------------|----------------------------------------------------------------------------|
+|  **Submission**   | `lab1.zip` on [Gradescope](https://gradescope.com/)|
 
 # Intro to Linux
 Linux is an essential part of the class, so it's important to get some
