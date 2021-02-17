@@ -1,5 +1,5 @@
 
-| **Due Date**  | **Monday, February 10th at 1:00PM EST**     |
+| **Due Date**  | **Wednesday, February 24th at 1:00PM EST**     |
 |---------------|---------------------------------------------|
 
 # Intro to Linux
@@ -12,7 +12,7 @@ have general questions, please post on
 [Piazza](http://piazza.com/mit/spring2020/614116405) so other students
 can benefit from the answer. If you have a question about your
 individual submission, please make a private post. Make sure you're
-using an Debian terminal if you're testing the commands. Instructions
+using a Debian terminal if you're testing the commands. Instructions
 for setting up the course software is
 [here](https://github.com/mit-rss/base_installation). Alternatively,
 you can use your Athena terminal to test commands by typing `ssh
@@ -28,8 +28,6 @@ file to [Gradescope](https://www.gradescope.com/courses/87663) under
 Question 4. Your submission will not get graded properly if you don't
 put it in the right format.
           
-This lab is due on **Monday, February 10th at 1:00PM EST**.
-
 ### References
 If you don't have previous experience with Linux, we recommend that
 you read the following tutorials by the Software Carpentry Foundation
@@ -42,11 +40,13 @@ resources as you need.
 5. [Pipes and filters](https://swcarpentry.github.io/shell-novice/04-pipefilter/)
 6. [Finding things](https://swcarpentry.github.io/shell-novice/07-find/)
 
+There are also many Linux cheatsheets online such as the ones [here](https://cheatography.com/davechild/cheat-sheets/linux-command-line/) and [here](https://www.guru99.com/linux-commands-cheat-sheet.html).
+
 Additionally, there is a universally available reference bundled with
 almost every Unix system called "man pages" or manual pages. By typing
 `man <command>` in the terminal, where `<command>` is the command you
 want to learn about, you can see comprehensive documentation about the
-command.
+command. Many commands also display useful information when called with the help option by running `<command> -h` or `<command> --help`.
 
 ### Instructions
 1. Clone this repository by typing `git clone
