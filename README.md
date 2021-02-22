@@ -67,7 +67,7 @@ command. Many commands also display useful information when called with the help
    multiple answers are possible, choose the shortest answer. All of
    your commands should work regardless of your current working
    directory. [Hint](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html)
-6. Continue onto question 4 to find out how to submit your answers
+6. Continue onto question 4 to find out how to submit your answers. Unlike problems 1-3, this exerise relies on using **multiple commands** to reformat your directory. So, feel free to pipe many commands together or complete file manipulations in consecutive lines as needed. The commands you use to complete this problem will **not** be added to the `linux_exercise.txt` file!  
 
 ### Question 1: Navigating your Home
 The first thing you need to learn in the command-line is how to
