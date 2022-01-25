@@ -1,7 +1,9 @@
 
-| **Due Date**  | **Monday, February 7th at 1:00PM EST**                                 |
+| Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
-|  **Submission**   | `lab1.zip` on [Gradescope](https://gradescope.com/)|
+| [Base Installation](https://github.com/mit-rss/base_installation) (nothing to submit)  | Monday, February 7th at 1:00PM EST |
+| Intro to Linux Gradescope Submission  | Monday, February 7th at 1:00PM EST |
+| [Intro to Git](https://github.com/mit-rss/intro_to_git/blob/master/README.md) Gradescope Submission  | Monday, February 7th at 1:00PM EST |
 
 # Intro to Linux
 Linux is an essential part of the class, so it's important to get some
@@ -15,7 +17,7 @@ can benefit from the answer. If you have a question about your
 individual submission, please make a private post. Make sure you're
 using a Debian terminal if you're testing the commands. Instructions
 for setting up the course software is
-[here TODO: fix link](https://github.com/mit-rss/base_installation). Alternatively,
+[here](https://github.com/mit-rss/base_installation). Alternatively,
 you can use your Athena terminal to test commands by typing `ssh
 <kerberos>@athena.dialup.mit.edu` in your terminal, substituting
 `<kerberos>` for your own kerberos username. Most of the commands below
