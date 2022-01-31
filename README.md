@@ -53,7 +53,8 @@ command. Many commands also display useful information when called with the help
 
 ### Instructions
 1. Clone this repository by typing `git clone
-   https://github.com/mit-rss/intro_to_linux.git` into your terminal
+   https://github.com/mit-rss/intro_to_linux.git` into your terminal. 
+   **Please make sure you do this in ~/racecar_ws/src if you are using the Docker image.**
 2. Place your answers to 1-3 in `linux_exercise.txt`. Every command
    should go between the `#####<question_number>#######` and `#####End
    of Question#######` lines
