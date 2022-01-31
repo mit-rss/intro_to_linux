@@ -22,8 +22,6 @@
 #####End of Question#######
 #####2f#######
 #####End of Question#######
-#####2g#######
-#####End of Question#######
 <====ssh====>
 #####3a#######
 #####End of Question#######
