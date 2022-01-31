@@ -35,7 +35,7 @@ def parser(filename):
 #print parser("solution.txt").keys()
 
 def checker(filename):
-	expected_keys = ['1a', '1b', '1c', '1d', '1e', '2a', '2b', '2c', '2d', '2e', '2f', '2g', '3a', '3b', '3c', '3d']
+	expected_keys = ['1a', '1b', '1c', '1d', '1e', '2a', '2b', '2c', '2d', '2e', '2f', '3a', '3b', '3c', '3d']
 	cmd_map = parser(filename)
 	missing = [key for key in expected_keys if not key in cmd_map]
 	added = [key for key in cmd_map if not key in expected_keys]
