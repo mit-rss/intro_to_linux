@@ -1,9 +1,9 @@
 
 | Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
-| Base Installation (nothing to submit)  | Monday, February 7th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811616)  | Monday, February 7th at 1:00PM EST |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811643)  | Monday, February 7th at 1:00PM EST |
+| Base Installation (nothing to submit)  | Monday, February 13th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811616)  | Monday, February 13th at 1:00PM EST |
+| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811643)  | Monday, February 13th at 1:00PM EST |
 
 # Intro to Linux
 Linux is an essential part of the class, so it's important to get some
@@ -12,7 +12,7 @@ encouraged to collaborate with others if you are stuck, the lab should
 be completed individually so you can get practice with skills that
 will be essential later on in the course when you are in teams. If you
 have general questions, please post on
-[Piazza](https://tinyurl.com/RSS2022-piazza) so other students
+[Piazza](https://tinyurl.com/RSS23-piazza) so other students
 can benefit from the answer. If you have a question about your
 individual submission, please make a private post. Make sure you're
 using a Debian terminal if you're testing the commands. Instructions
