@@ -2,7 +2,7 @@
 | Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
 | Base Installation (nothing to submit)  | Monday, February 13th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission (Link to come)](https://www.gradescope.com/)  | Monday, February 13th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/509619/assignments/2651276)  | Monday, February 13th at 1:00PM EST |
 | Intro to Git [Gradescope Submission (Link to come)](https://www.gradescope.com/)  | Monday, February 13th at 1:00PM EST |
 
 # Intro to Linux
