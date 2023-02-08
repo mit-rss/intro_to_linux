@@ -2,8 +2,8 @@
 | Deliverable | Due Date              |
 |---------------|----------------------------------------------------------------------------|
 | Base Installation (nothing to submit)  | Monday, February 13th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811616)  | Monday, February 13th at 1:00PM EST |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/362909/assignments/1811643)  | Monday, February 13th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission (Link to come)](https://www.gradescope.com/)  | Monday, February 13th at 1:00PM EST |
+| Intro to Git [Gradescope Submission (Link to come)](https://www.gradescope.com/)  | Monday, February 13th at 1:00PM EST |
 
 # Intro to Linux
 Linux is an essential part of the class, so it's important to get some
