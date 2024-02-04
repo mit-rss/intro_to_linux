@@ -36,12 +36,12 @@ If you don't have previous experience with Linux, we recommend that
 you read the following tutorials by the Software Carpentry Foundation
 before starting on the exercises. Otherwise, you can just use the
 resources as you need.
-1. [Setup](https://swcarpentry.github.io/shell-novice/setup.html)
-2. [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro/)
+1. [Setup](https://swcarpentry.github.io/shell-novice/index.html)
+2. [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
 3. [Navigating files and directories](https://swcarpentry.github.io/shell-novice/02-filedir/)
-4. [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create/)
-5. [Pipes and filters](https://swcarpentry.github.io/shell-novice/04-pipefilter/)
-6. [Finding things](https://swcarpentry.github.io/shell-novice/07-find/)
+4. [Working with files and directories](https://swcarpentry.github.io/shell-novice/03-create.html)
+5. [Pipes and filters](https://swcarpentry.github.io/shell-novice/04-pipefilter.html)
+6. [Finding things](https://swcarpentry.github.io/shell-novice/07-find.html)
 
 There are also many Linux cheatsheets online such as the ones [here](https://cheatography.com/davechild/cheat-sheets/linux-command-line/) and [here](https://www.guru99.com/linux-commands-cheat-sheet.html).
 
@@ -85,11 +85,11 @@ files.
 ### Question 2: Installing and Controlling Programs
 One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this question, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
 
-2a. Install a program called `inxi`.  
-2b. Open up documentation for `inxi` in the terminal to see what it does. [Hint](https://en.wikipedia.org/wiki/Man_page)  
-2c. Use `inxi` to show information about your Audio/sound card  
-2d. Uninstall `inxi`  
-2e. Update the list of available Debian packages  
+2a. Install a program called `inxi`
+2b. Show output control options for `inxi` in the terminal to see what it does
+2c. Use `inxi` to show information about your hardware disk info.  
+2d. Uninstall `inxi`
+2e. Update the list of available Debian packages
 2f. Upgrade all existing packages  
 
 ### Question 3: ssh
