@@ -26,7 +26,7 @@ should work, although a few of them may not.
 ### Gradescope Submission
 
 In order to get credit for this assignment, you will submit a `.zip`
-file to [Gradescope](https://www.gradescope.com/courses/362909) under
+file to [Gradescope](https://www.gradescope.com/courses/728544/assignments/4053193) under
 **Lab 1A: Intro To Linux**. The format of the file will be specified in
 Question 4. Your submission will not get graded properly if you don't
 put it in the right format.
