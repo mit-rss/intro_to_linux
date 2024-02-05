@@ -11,7 +11,7 @@ def get_id(line):
 def parser(filename):
 	_file = open(filename,"r");
 	lines = _file.readlines()
-	#print lines
+	#print(lines)
 	_file.close()
 	answers = {}
 	answer_lines = []
@@ -20,19 +20,19 @@ def parser(filename):
 	while lines:
 		line = lines.pop(0)
 		if end_line(line):
-			#print "end_line"
+			#print("end_line")
 			answers[name]=deepcopy(answer_lines)
 			answer_lines = []
 			_ready=False
 		elif strt_line(line):
-			#print "strt_line"
+			#print("strt_line")
 			name = get_id(line);
 			_ready = True
 		elif _ready:
 			if line.strip()!='':
 				answer_lines.append(line.strip())
 	return answers
-#print parser("solution.txt").keys()
+#print(parser("solution.txt").keys())
 
 def checker(filename):
 	expected_keys = ['1a', '1b', '1c', '1d', '1e', '2a', '2b', '2c', '2d', '2e', '2f', '3a', '3b', '3c', '3d']
@@ -50,14 +50,14 @@ def checker(filename):
 			answered.append(q)
 		else:
 			empty.append(q)
-	print "------------FILLED QUESTIONS-----------"
+	print("------------FILLED QUESTIONS-----------")
 	for q in answered:
-		print "<<<<<<<<<< "+q+" >>>>>>>>>>>>"
-		print "commands:"
+		print("<<<<<<<<<< "+q+" >>>>>>>>>>>>")
+		print("commands:")
 		for cmd in cmd_map[q]:
-			print cmd
-	print "------------EMPTY QUESTIONS-----------"
+			print(cmd)
+	print("------------EMPTY QUESTIONS-----------")
 	for q in empty:
-		print "<<<<<<<<<< "+q+" >>>>>>>>>>>>"
+		print("<<<<<<<<<< "+q+" >>>>>>>>>>>>")
 if __name__=="__main__":
 	checker("linux_exercise.txt")
