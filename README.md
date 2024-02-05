@@ -81,14 +81,14 @@ files.
 1b. Navigate to your root directory  
 1c. Navigate to the parent directory of your current directory  
 1d. List all the files/directories in your home directory, including hidden ones, in long listing format  
-1e. Print your current working directory  
+1e. Print your current working directory 
 ### Question 2: Installing and Controlling Programs
 One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this question, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
 
-2a. Install a program called `inxi`
-2b. Show output control options for `inxi` in the terminal to see what it does
-2c. Use `inxi` to show information about your hardware disk info.  
-2d. Uninstall `inxi`
+2a. Install a program called `inxi`\
+2b. Show output control options for `inxi` in the terminal to see what it does \
+2c. Use `inxi` to show information about your hardware disk info.  \
+2d. Uninstall `inxi`\
 2e. Update the list of available Debian packages
 2f. Upgrade all existing packages  
 
