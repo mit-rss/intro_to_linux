@@ -1,11 +1,7 @@
-
-| Deliverable | Due Date              |
-|---------------|----------------------------------------------------------------------------|
-| Base Installation (nothing to submit)  | Monday, February 5th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/728544/assignments/4053193)  | Wednesday, February 14th at 1:00PM EST |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/728544/assignments/4053367)  | Wednesday, February 14th at 1:00PM EST |
-
 # Intro to Linux
+
+## Introduction
+
 Linux is an essential part of the class, so it's important to get some
 experience with this before working with the robots. Although you're
 encouraged to collaborate with others if you are stuck, the lab should
@@ -17,7 +13,7 @@ can benefit from the answer. If you have a question about your
 individual submission, please make a private post. Make sure you're
 using a Debian terminal if you're testing the commands. Instructions
 for setting up the course software is
-[here](https://github.com/mit-rss/base_installation). Alternatively,
+[here](https://github.com/mit-rss/racecar_docker). Alternatively,
 you can use your Athena terminal to test commands by typing `ssh
 <kerberos>@athena.dialup.mit.edu` in your terminal, substituting
 `<kerberos>` for your own kerberos username. Most of the commands below
