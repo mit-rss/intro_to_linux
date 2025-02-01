@@ -16,7 +16,7 @@ encouraged to collaborate with others if you are stuck, the lab should
 be completed individually so you can get practice with skills that
 will be essential later on in the course when you are in teams. If you
 have general questions, please post on
-[Piazza](https://tinyurl.com/RSS23-piazza) so other students
+[Piazza](https://piazza.com/mit/spring2025/64200164052124/home) so other students
 can benefit from the answer. If you have a question about your
 individual submission, please make a private post. Make sure you're
 using a Debian terminal if you're testing the commands. Instructions
