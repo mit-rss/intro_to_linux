@@ -1,5 +1,13 @@
 # Intro to Linux
 
+## Table of Contents
+
+* [Introduction](https://github.com/mit-rss/intro_to_linux#introduction)
+* [Gradescope Submission](https://github.com/mit-rss/intro_to_linux#gradescope-submission)
+* [References](https://github.com/mit-rss/intro_to_linux#references)
+* [Instructions](https://github.com/mit-rss/intro_to_linux#instructions)
+* [Problems](https://github.com/mit-rss/intro_to_linux#problems)
+
 ## Introduction
 
 Linux is an essential part of the class, so it's important to get some
@@ -19,7 +27,7 @@ you can use your Athena terminal to test commands by typing `ssh
 `<kerberos>` for your own kerberos username. Most of the commands below
 should work, although a few of them may not.
 
-### Gradescope Submission
+## Gradescope Submission
 
 In order to get credit for this assignment, you will submit a `.zip`
 file to [Gradescope](https://www.gradescope.com/courses/728544/assignments/4053193) under
@@ -27,7 +35,7 @@ file to [Gradescope](https://www.gradescope.com/courses/728544/assignments/40531
 Question 4. Your submission will not get graded properly if you don't
 put it in the right format.
           
-### References
+## References
 If you don't have previous experience with Linux, we recommend that
 you read the following tutorials by the Software Carpentry Foundation
 before starting on the exercises. Otherwise, you can just use the
@@ -47,13 +55,13 @@ almost every Unix system called "man pages" or manual pages. By typing
 want to learn about, you can see comprehensive documentation about the
 command. Many commands also display useful information when called with the help option by running `<command> -h` or `<command> --help`.
 
-### Instructions
+## Instructions
 1. Clone this repository by typing `git clone
    https://github.com/mit-rss/intro_to_linux.git` into your terminal. 
    **Please make sure you do this in ~/racecar_ws/src if you are using the Docker image.**
-2. Place your answers to 1-3 in `linux_exercise.txt`. Every command
+2. Place your answers to problems 1-3 in `linux_exercise.txt`. Every command
    should go between the `#####<question_number>#######` and `#####End
-   of Question#######` lines
+   of Question#######` lines.
 3. During this class, you will need to be familiar with at least one
    terminal-based text editor like [vim](https://www.vim.org/),
    [nano](https://www.nano-editor.org/),
@@ -61,14 +69,16 @@ command. Many commands also display useful information when called with the help
    some practice with a terminal-based text editor when you're editing
    `linux_exercise.txt`.
 4. Run `sanity_checker.py` to double check that your answers are
-   correctly formatted
+   correctly formatted.
 5. Provide a single command for each of the following questions. If
    multiple answers are possible, choose the shortest answer. All of
    your commands should work regardless of your current working
    directory. [Hint](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html)
-6. Continue onto question 4 to find out how to submit your answers. Unlike problems 1-3, this exerise relies on using **multiple commands** to reformat your directory. So, feel free to pipe many commands together or complete file manipulations in consecutive lines as needed. The commands you use to complete this problem will **not** be added to the `linux_exercise.txt` file!  
+6. Continue onto question 4 to find out how to submit your answers. Unlike problems 1-3, this exercise relies on using **multiple commands** to reformat your directory. So, feel free to pipe many commands together or complete file manipulations in consecutive lines as needed. The commands you use to complete this problem will **not** be added to the `linux_exercise.txt` file!  
 
-### Question 1: Navigating your Home
+## Problems
+
+### Problem 1: Navigating your Home
 The first thing you need to learn in the command-line is how to
 navigate the filesystem and view the contents of directories and
 files.
@@ -78,7 +88,8 @@ files.
 1c. Navigate to the parent directory of your current directory  
 1d. List all the files/directories in your home directory, including hidden ones, in long listing format  
 1e. Print your current working directory 
-### Question 2: Installing and Controlling Programs
+
+### Problem 2: Installing and Controlling Programs
 One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this question, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
 
 2a. Install a program called `inxi`\
@@ -88,7 +99,7 @@ One of the awesome features of UNIX-based operating systems is how simple it is 
 2e. Update the list of available Debian packages \
 2f. Upgrade all existing packages  
 
-### Question 3: ssh
+### Problem 3: ssh
 Another cool feature that you will be using often in this class is SSH
 (Secure SHell), which enables you to access the terminals of other
 Linux-powered remote devices or systems as long as you have access
@@ -99,7 +110,7 @@ credentials. This is how you will access the racecars.
 3c. Exit the ssh session      
 3d. Using the scp command from your local terminal, move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
 
-### Question 4: Practice  
+### Problem 4: Practice  
 Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in questions 1-3, you might find `grep`, `|`, `>`, `>>`, `xargs`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, `for`, etc useful. We encourage you to work incrementally, use man pages and the internet as a resource, and write down commands that are helpful as you go. 
 
 Please perform the following modifications to the `lab1/` directory:
@@ -124,7 +135,7 @@ Notes: Make sure you are using the provided VM or an Debian or Ubuntu
 machine when doing question 4 or weird things might happen when it's
 graded.
 
-### Question 5: `alias` and `.bashrc`
+### Problem 5: `alias` and `.bashrc`
 Add an [alias](http://www.linfo.org/alias.html) to the end of your
 `~/.bashrc` file that runs `ls -alF` when you type `ll`. The .bashrc
 file is executed every time you start a new shell, so this allows you
