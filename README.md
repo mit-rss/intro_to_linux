@@ -1,3 +1,9 @@
+| Deliverable | Due Date              |
+|---------------|----------------------------------------------------------------------------|
+| Base Installation (nothing to submit)  | Wednesday, February 5th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710353)  | Monday, February 10th at 1:00PM EST |
+| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710354)  | Monday, February 10th at 1:00PM EST |
+
 # Intro to Linux
 
 ## Table of Contents
@@ -30,7 +36,7 @@ should work, although a few of them may not.
 ## Gradescope Submission
 
 In order to get credit for this assignment, you will submit a `.zip`
-file to [Gradescope](https://www.gradescope.com/courses/728544/assignments/4053193) under
+file to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710353) under
 **Lab 1A: Intro To Linux**. The format of the file will be specified in
 Question 4. Your submission will not get graded properly if you don't
 put it in the right format.
