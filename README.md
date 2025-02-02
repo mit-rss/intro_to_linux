@@ -105,7 +105,7 @@ One of the awesome features of UNIX-based operating systems is how simple it is 
 2e. Update the list of available Debian packages \
 2f. Upgrade all existing packages  
 
-### Problem 3: ssh
+### Problem 3: SSH
 Another cool feature that you will be using often in this class is SSH
 (Secure SHell), which enables you to access the terminals of other
 Linux-powered remote devices or systems as long as you have access
@@ -114,7 +114,7 @@ credentials. This is how you will access the racecars.
 3a. Log into a remote shell with the address `athena.dialup.mit.edu` and your kerberos as the username. This will give you secure remote access to a shell running on an Athena machine.  
 3b. Logged into your Athena account, download the contents from `https://tinyurl.com/ya67uga4` into a file named `pic.png` in your Athena home directory.  
 3c. Exit the ssh session      
-3d. Using the scp command from your local terminal, move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
+3d. Using the `scp` command from your local terminal, move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
 
 ### Problem 4: Practice  
 Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in questions 1-3, you might find `grep`, `|`, `>`, `>>`, `xargs`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, `for`, etc useful. We encourage you to work incrementally, use man pages and the internet as a resource, and write down commands that are helpful as you go. 
@@ -140,11 +140,3 @@ files in your submission.
 Notes: Make sure you are using the provided VM or an Debian or Ubuntu
 machine when doing question 4 or weird things might happen when it's
 graded.
-
-### Problem 5: `alias` and `.bashrc`
-Add an [alias](http://www.linfo.org/alias.html) to the end of your
-`~/.bashrc` file that runs `ls -alF` when you type `ll`. The .bashrc
-file is executed every time you start a new shell, so this allows you
-to create shortcuts for longer commands. You should test your command
-by typing `source ~/.bashrc` and typing `ll`. You do not need to
-submit anything for this question.
