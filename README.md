@@ -76,7 +76,7 @@ command. Many commands also display useful information when called with the help
    `linux_exercise.txt`.
 4. Run `sanity_checker.py` to double check that your answers are
    correctly formatted.
-5. Provide a single command for each of the following questions. If
+5. Provide a single command for each of the following problems. If
    multiple answers are possible, choose the shortest answer. All of
    your commands should work regardless of your current working
    directory. [Hint](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html)
