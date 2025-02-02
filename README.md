@@ -38,7 +38,7 @@ should work, although a few of them may not.
 In order to get credit for this assignment, you will submit a `.zip`
 file to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710353) under
 **Lab 1A: Intro To Linux**. The format of the file will be specified in
-Question 4. Your submission will not get graded properly if you don't
+Problem 4. Your submission will not get graded properly if you don't
 put it in the right format.
           
 ## References
@@ -80,7 +80,7 @@ command. Many commands also display useful information when called with the help
    multiple answers are possible, choose the shortest answer. All of
    your commands should work regardless of your current working
    directory. [Hint](https://www.gnu.org/software/bash/manual/html_node/Tilde-Expansion.html)
-6. Continue onto question 4 to find out how to submit your answers. Unlike problems 1-3, this exercise relies on using **multiple commands** to reformat your directory. So, feel free to pipe many commands together or complete file manipulations in consecutive lines as needed. The commands you use to complete this problem will **not** be added to the `linux_exercise.txt` file!  
+6. Continue onto problem 4 to find out how to submit your answers. Unlike problems 1-3, this exercise relies on using **multiple commands** to reformat your directory. So, feel free to pipe many commands together or complete file manipulations in consecutive lines as needed. The commands you use to complete this problem will **not** be added to the `linux_exercise.txt` file!  
 
 ## Problems
 
@@ -96,7 +96,7 @@ files.
 1e. Print your current working directory 
 
 ### Problem 2: Installing and Controlling Programs
-One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this question, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
+One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this problem, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
 
 2a. Install a program called `inxi`\
 2b. Show output control options for `inxi` in the terminal to see what it does \
@@ -117,13 +117,13 @@ credentials. This is how you will access the racecars.
 3d. Using the `scp` command from your local terminal, move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
 
 ### Problem 4: Practice  
-Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in questions 1-3, you might find `grep`, `|`, `>`, `>>`, `xargs`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, `for`, etc useful. We encourage you to work incrementally, use man pages and the internet as a resource, and write down commands that are helpful as you go. 
+Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in problems 1-3, you might find `grep`, `|`, `>`, `>>`, `xargs`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, `for`, etc useful. We encourage you to work incrementally, use man pages and the internet as a resource, and write down commands that are helpful as you go. 
 
 Please perform the following modifications to the `lab1/` directory:
 
 1. Any file with the extension `.txt` that does not contain **exactly 10 lines** is corrupted and should be deleted from the whole directory. The names of the files that are deleted should be written in a file called `deleted_files.txt` with 1 filename per line in **ascending numerical order** (_not alphabetical order_).   
 2. Out of the remaining `.txt` files with 10 lines, the ones that contain the string "IMPORTANT" should be placed in a new directory named `important/`. The rest of the `.txt` files should be placed in another new directory named `unimportant/`.   
-3. After reorganizing all the `.txt` files, add the file named `linux_exercise.txt` that contains your answers to questions 1-3 into the `lab1/` directory.
+3. After reorganizing all the `.txt` files, add the file named `linux_exercise.txt` that contains your answers to problems 1-3 into the `lab1/` directory.
 4. Zip the folder into a file called `lab1.zip`
 
 As a summary, the final zipped folder should contain the following:  
@@ -137,6 +137,6 @@ As a summary, the final zipped folder should contain the following:
 Therefore, we expect correct use of upper and lower case in the commands and
 files in your submission.
 
-Notes: Make sure you are using the provided VM or an Debian or Ubuntu
-machine when doing question 4 or weird things might happen when it's
+>Make sure you are using the provided Docker container or a Debian or Ubuntu
+machine when doing problem 4 or weird things might happen when it's
 graded.
