@@ -112,7 +112,7 @@ Another cool feature that you will be using often in this class is SSH
 Linux-powered remote devices or systems as long as you have access
 credentials. This is how you will access the racecars.
 
-3a. **From ourside your Docker container**, log into a remote shell with the address `athena.dialup.mit.edu` and your kerberos as the username. This will give you secure remote access to a shell running on an Athena machine running Linux.
+3a. **From ourside your Docker container**, log into a remote shell with the address `athena.dialup.mit.edu` and your kerberos as the username. This will give you secure remote access to a shell running on an Athena machine running Linux. \
 3b. Logged into your Athena account, download the contents from `https://tinyurl.com/ya67uga4` into a file named `pic.png` in your Athena home directory.  
 3c. Exit the ssh session      
 3d. Using the `scp` command from your local terminal, move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
