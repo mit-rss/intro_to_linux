@@ -87,7 +87,8 @@ command. Many commands also display useful information when called with the help
 ### Problem 1: Navigating your Home
 The first thing you need to learn in the command-line is how to
 navigate the filesystem and view the contents of directories and
-files.
+files. To access a Linux terminal, complete the following exercises
+**inside your Docker container** and write the command you used in `linux_exercise.txt`.
 
 1a. Navigate to your home directory  
 1b. Navigate to your root directory  
@@ -96,7 +97,7 @@ files.
 1e. Print your current working directory 
 
 ### Problem 2: Installing and Controlling Programs
-One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this problem, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en).   
+One of the awesome features of UNIX-based operating systems is how simple it is to install programs through the terminal. For this problem, use [apt](https://help.ubuntu.com/lts/serverguide/apt.html.en). Again, perform these exercises **inside your Docker container** and update `linux_exercise.txt`.
 
 2a. Install a program called `inxi`\
 2b. Show output control options for `inxi` in the terminal to see what it does \
@@ -111,7 +112,7 @@ Another cool feature that you will be using often in this class is SSH
 Linux-powered remote devices or systems as long as you have access
 credentials. This is how you will access the racecars.
 
-3a. Log into a remote shell with the address `athena.dialup.mit.edu` and your kerberos as the username. This will give you secure remote access to a shell running on an Athena machine.  
+3a. **From ourside your Docker container**, log into a remote shell with the address `athena.dialup.mit.edu` and your kerberos as the username. This will give you secure remote access to a shell running on an Athena machine running Linux.
 3b. Logged into your Athena account, download the contents from `https://tinyurl.com/ya67uga4` into a file named `pic.png` in your Athena home directory.  
 3c. Exit the ssh session      
 3d. Using the `scp` command from your local terminal, move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
