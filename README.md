@@ -115,7 +115,7 @@ credentials. This is how you will access the racecars.
 3a. **From ourside your Docker container**, log into a remote shell with the address `athena.dialup.mit.edu` and your kerberos as the username. This will give you secure remote access to a shell running on an Athena machine running Linux. \
 3b. Logged into your Athena account, download the contents from `https://tinyurl.com/ya67uga4` into a file named `pic.png` in your Athena home directory.  
 3c. Exit the ssh session      
-3d. Using the `scp` command from your local terminal, move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
+3d. Using the `scp` command from your local terminal (git bash for Windows, terminal for Mac/Linux), move the photo you just downloaded from your Athena account, `~/pic.png`, onto your native machine into the folder `~/Pictures` on your machine. This is useful for transferring files between your computer and the Racecar.
 
 ### Problem 4: Practice  
 Now that you're familiar with the basics of the command line, complete the following exercise in order to get credit for this assignment. In this exercise, you will be reorganizing the `.txt` files found in the `lab1/` directory. In addition to the commands introduced in problems 1-3, you might find `grep`, `|`, `>`, `>>`, `xargs`, `awk`, `sed`, `mkdir`, `rm`, `wc`, `cat`, `cut`, `zip`, `sort`, `for`, etc useful. We encourage you to work incrementally, use man pages and the internet as a resource, and write down commands that are helpful as you go. 
