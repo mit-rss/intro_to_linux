@@ -35,19 +35,18 @@ should work, although a few of them may not.
 
 ## Gradescope Submission
 
-In order to get credit for this assignment, you will submit a `.zip`
-file to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710353) under
-**Lab 1A: Intro To Linux**. The format of the file will be specified in
-Problem 4. Your submission will not get graded properly if you don't
-put it in the right format.
+Once you have completed the exercises below and filled in your `linux_exercise.txt`, you will submit a `.zip`
+file named `lab1.zip` containing your `lab1` directory to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710353)
+under **Lab 1A: Intro To Linux**. In Linux, the correct zip command is `zip -r lab1 lab1`. When you unzip `lab1.zip`, you
+should see a directory named `lab1` containing a file named `linux_exercise.txt`.
           
 ## References
 
 If you don't have previous experience with Linux, we recommend that
 you read the following tutorials by the Software Carpentry Foundation
 before starting on the exercises. Otherwise, you can just use the
-
 resources as you need.
+
 1. [Setup](https://swcarpentry.github.io/shell-novice/index.html)
 2. [Introducing the Shell](https://swcarpentry.github.io/shell-novice/01-intro.html)
 3. [Navigating files and directories](https://swcarpentry.github.io/shell-novice/02-filedir.html)
@@ -55,21 +54,13 @@ resources as you need.
 5. [Pipes and filters](https://swcarpentry.github.io/shell-novice/04-pipefilter.html)
 6. [Finding things](https://swcarpentry.github.io/shell-novice/07-find.html)
 
-Additionally, there is a universally available reference bundled with
-almost every Unix system called "man pages" or manual pages. By typing
-`man <command>` in the terminal, where `<command>` is the command you
-want to learn about, you can see comprehensive documentation about the
-command. Many commands also display useful information when called with the
-help option by running `<command> -h` or `<command> --help`.
-
 ## Instructions
 
 1. Clone this repository by typing `git clone
    https://github.com/mit-rss/intro_to_linux.git` into your terminal. 
    **Please make sure you do this in ~/racecar_ws/src if you are using the Docker image.**
-2. Place your answers to problems 1-3 in `linux_exercise.txt`. Every command
-   should go between the `#####<question_number>#######` and `#####End
-   of Question#######` lines.
+2. Place your answers to problems 1-5 in `linux_exercise.txt`. Every command
+   should go between the `#####<question_number>#######` and `#####End of Question#######` lines.
 3. During this class, you will need to be familiar with at least one
    terminal-based text editor like [vim](https://www.vim.org/),
    [nano](https://www.nano-editor.org/), or
@@ -93,11 +84,11 @@ The first thing you need to learn in the command-line is how to
 navigate the filesystem and view the contents of directories and
 files.
 
-a. Navigate to your home directory
-b. Navigate to your root directory
-c. Navigate to the parent directory of your current directory
-d. List all the files/directories in your home directory, including hidden ones, in long listing format
-e. Print your current working directory
+a. Navigate to your home directory.
+b. Navigate to your root directory.
+c. Navigate to the parent directory of your current directory.
+d. List all the files/directories in your home directory, including hidden ones, in long listing format.
+e. Print your current working directory.
 
 ### Problem 2: Installing and Controlling Programs
 
@@ -105,14 +96,19 @@ One of the awesome features of UNIX-based operating systems is how simple it is 
 programs through the terminal. For this problem, use the Advanced Packaging Tool or **APT**,
 which is the recommended way to install and manage Debian packages.
 
-a. Install a program called `inxi`
-b. Show output control options for `inxi` in the terminal to see what it does
-c. Use `inxi` to show information about your hardware disk info
-d. Uninstall `inxi`
-e. Update the list of available Debian packages
-f. Upgrade all existing packages
+a. Install a program called `inxi`.
+b. Many commands display useful information when called with the help option.
+   Enter a command to show the `inxi` help menu in the terminal to see what it does.
+c. Additionally, there is a universally available reference bundled with almost every Unix system called
+   "man pages" or manual pages. Enter a command to view the `inxi` man page for more detailed information.
+d. Use `inxi` to show information about your hardware disk info.
+e. Uninstall `inxi`.
+f. Update the list of available Debian packages.
+g. Upgrade all existing packages.
 
-> **Note:** In APT, *updating* fetches the latest version of the package list 
+> **Note:** In APT, *updating* fetches the latest version of the package list,
+> while *upgrading* upgrades the actual packages installed on your system.
+> Before installing or upgrading, it is always a good idea to update the package list.
 
 ### Problem 3: SSH
 
@@ -129,23 +125,66 @@ b. Logged into your Athena account, download the contents from `https://tinyurl.
 c. Exit the ssh session.
 d. Using the `scp` command from your Docker container,
    move the photo you just downloaded from your Athena account, `~/pic.png`,
-   into the home directory on your Docker container.
-   This is useful for transferring files between your computer and the Racecar.
+   into the `~/racecar_ws` directory in your Docker container.
+   This is useful for transferring files between your computer and the racecar.
 
 ### Problem 4: Tmux
 
 In this class, you are going to be doing a lot of stuff in the terminal. A lot, a lot of stuff.
 Running multiple launch scripts, debugging, echoing ros2 topics, etc. Instead of having 15 tabs,
-where you have to run the same commands to initialize each, and can only see one at a time,
+where you have to run the same commands to initialize each and can only see one at a time,
 we can use something called a **terminal multiplexer**, or [tmux](https://github.com/tmux/tmux/wiki).
 Tmux allows us to run multiple terminals, see them all on the same screen, and run commands to start each automatically.
 It can even allow us to run stuff in a terminal in the background, if we so desire. If we get super fancy, multiple people
 can attach to the same tmux session, and look at the same stuff at the same time.
 
-### Problem 5: Dotfiles
+a. Start a new tmux session named `racecar`.
 
+Now you should be in a tmux session! The following are some useful but by no means extensive set of commands to
+navigate inside a tmux session. Tmux uses `Ctrl+b` as the prefix key, meaning for the command `Ctrl+b d`, you press
+`Ctrl+b`, release `Ctrl+b`, then type `d`:
 
+| Command                   | Description             |
+|---------------------------|-------------------------|
+| `Ctrl+b %`                | Split pane vertically   |
+| `Ctrl+b "`                | Split pane horizontally |
+| `Ctrl+b <arrow_key>`      | Siwtch between panes    |
+| `Ctrl+b <Ctrl+arrow_key>` | Change pane size        |
+| `Ctrl+b c`                | Create new tab          |
+| `Ctrl+b n`                | Switch between tabs     |
 
-### Problem 6: Docker
+More commands can be found in this [cheatsheet](https://tmuxcheatsheet.com/). Explore some tmux commands!
 
+b. Detatch from your current tmux session. This is similar to "saving and exiting" your tmux session.
+
+> When answering this question, you can use the corresponding `tmux` command or the keybinding.
+> For the keybinding, enter in the following format: `Ctrl+b <key>`. For example, `Ctrl+b c` for creating a new tab.
+
+c. List all active tmux sessions. You should see your `racecar` session!
+d. Attach to the `racecar` tmux session.
+
+You should now see that your previous `racecar` session is saved. Again, run the command to detach from your current tmux session.
+
+e. Kill the `racecar` tmux session, ending all processes running in that session.
+f. Enter a one-line command to add an alias `tks` for killing the current or most recently attached tmux session to `~/.bashrc`.
+   Your `~/.bashrc` file executes every time your new terminal opens, so you can now use the short command `tks` to kill your tmux session.
+
+> **Note:** To be more exact, this command will work from the next time you open a new terminal. If you want to use the `tks` command in
+> your current shell, you must run the command `source ~/.bashrc`, which executes the `~/.bashrc` file in the current shell.
+
+### Problem 5: Environment Variables
+
+Environment variables are dynamic values that affect the behavior of processes in your shell.
+They store configuration like your home directory (`$HOME`), executable search paths (`$PATH`),
+and application-specific settings such as `ROS_DISTRO`.
+
+a. Print the value of the `HOME` environment variable. This variable defines your home directory, `~`.
+b. Set the value of your `HOME` variable to `/home/racecar/racecar_ws` for the current session.
+c. List all environment variables currently set in your shell. You should see your `HOME` variable set to
+   `/home/racecar/racecar_ws`.
+
+Try running `cd ~ && pwd` now. You should see that your home directory is now set to `/home/racecar/racecar_ws`.
+This is an example of how environment variables affect the behavior of your processes. For example, in ROS,
+running `source /opt/ros/<ros_distro>/setup.bash` sets up the required environment variables to have ROS
+properly functioning. More on this will be covered in Lab 1C.
 
