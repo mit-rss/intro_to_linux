@@ -84,11 +84,11 @@ The first thing you need to learn in the command-line is how to
 navigate the filesystem and view the contents of directories and
 files.
 
-a. Navigate to your home directory.
-b. Navigate to your root directory.
-c. Navigate to the parent directory of your current directory.
-d. List all the files/directories in your home directory, including hidden ones, in long listing format.
-e. Print your current working directory.
+**a.** Navigate to your home directory.\
+**b.** Navigate to your root directory.\
+**c.** Navigate to the parent directory of your current directory.\
+**d.** List all the files/directories in your home directory, including hidden ones, in long listing format.\
+**e.** Print your current working directory.
 
 ### Problem 2: Installing and Controlling Programs
 
@@ -96,15 +96,15 @@ One of the awesome features of UNIX-based operating systems is how simple it is 
 programs through the terminal. For this problem, use the Advanced Packaging Tool or **APT**,
 which is the recommended way to install and manage Debian packages.
 
-a. Install a program called `inxi`.
-b. Many commands display useful information when called with the help option.
-   Enter a command to show the `inxi` help menu in the terminal to see what it does.
-c. Additionally, there is a universally available reference bundled with almost every Unix system called
-   "man pages" or manual pages. Enter a command to view the `inxi` man page for more detailed information.
-d. Use `inxi` to show information about your hardware disk info.
-e. Uninstall `inxi`.
-f. Update the list of available Debian packages.
-g. Upgrade all existing packages.
+**a.** Install a program called `inxi`.\
+**b.** Many commands display useful information when called with the help option.
+       Enter a command to show the `inxi` help menu in the terminal to see what it does.\
+**c.** Additionally, there is a universally available reference bundled with almost every Unix system called
+       "man pages" or manual pages. Enter a command to view the `inxi` man page for more detailed information.\
+**d.** Use `inxi` to show information about your hardware disk info.\
+**e.** Uninstall `inxi`.\
+**f.** Update the list of available Debian packages.\
+**g.** Upgrade all existing packages.
 
 > **Note:** In APT, *updating* fetches the latest version of the package list,
 > while *upgrading* upgrades the actual packages installed on your system.
@@ -117,16 +117,16 @@ Another cool feature that you will be using often in this class is SSH
 Linux-powered remote devices or systems as long as you have access
 credentials. This is how you will access the racecars.
 
-a. From your Docker container, log into a remote shell with the address `athena.dialup.mit.edu`
-   and your kerberos as the username. This will give you secure remote access to a shell running on
-   an Athena machine running Linux.
-b. Logged into your Athena account, download the contents from `https://tinyurl.com/ya67uga4`
-   into a file named `pic.png` in your Athena home directory.
-c. Exit the ssh session.
-d. Using the `scp` command from your Docker container,
-   move the photo you just downloaded from your Athena account, `~/pic.png`,
-   into the `~/racecar_ws` directory in your Docker container.
-   This is useful for transferring files between your computer and the racecar.
+**a.** From your Docker container, log into a remote shell with the address `athena.dialup.mit.edu`
+       and your kerberos as the username. This will give you secure remote access to a shell running on
+       an Athena machine running Linux.\
+**b.** Logged into your Athena account, download the contents from `https://tinyurl.com/ya67uga4`
+       into a file named `pic.png` in your Athena home directory.\
+**c.** Exit the ssh session.\
+**d.** Using the `scp` command from your Docker container,
+       move the photo you just downloaded from your Athena account, `~/pic.png`,
+       into the `~/racecar_ws` directory in your Docker container.
+       This is useful for transferring files between your computer and the racecar.
 
 ### Problem 4: Tmux
 
@@ -138,7 +138,7 @@ Tmux allows us to run multiple terminals, see them all on the same screen, and r
 It can even allow us to run stuff in a terminal in the background, if we so desire. If we get super fancy, multiple people
 can attach to the same tmux session, and look at the same stuff at the same time.
 
-a. Start a new tmux session named `racecar`.
+**a.** Start a new tmux session named `racecar`.
 
 Now you should be in a tmux session! The following are some useful but by no means extensive set of commands to
 navigate inside a tmux session. Tmux uses `Ctrl+b` as the prefix key, meaning for the command `Ctrl+b d`, you press
@@ -155,19 +155,19 @@ navigate inside a tmux session. Tmux uses `Ctrl+b` as the prefix key, meaning fo
 
 More commands can be found in this [cheatsheet](https://tmuxcheatsheet.com/). Explore some tmux commands!
 
-b. Detatch from your current tmux session. This is similar to "saving and exiting" your tmux session.
+**b.** Detatch from your current tmux session. This is similar to "saving and exiting" your tmux session.
 
 > When answering this question, you can use the corresponding `tmux` command or the keybinding.
 > For the keybinding, enter in the following format: `Ctrl+b <key>`. For example, `Ctrl+b c` for creating a new tab.
 
-c. List all active tmux sessions. You should see your `racecar` session!
-d. Attach to the `racecar` tmux session.
+**c.** List all active tmux sessions. You should see your `racecar` session!\
+**d.** Attach to the `racecar` tmux session.
 
 You should now see that your previous `racecar` session is saved. Again, run the command to detach from your current tmux session.
 
-e. Kill the `racecar` tmux session, ending all processes running in that session.
-f. Enter a one-line command to add an alias `tks` for killing the current or most recently attached tmux session to `~/.bashrc`.
-   Your `~/.bashrc` file executes every time your new terminal opens, so you can now use the short command `tks` to kill your tmux session.
+**e.** Kill the `racecar` tmux session, ending all processes running in that session.\
+**f.** Enter a one-line command to add an alias `tks` for killing the current or most recently attached tmux session to `~/.bashrc`.
+       Your `~/.bashrc` file executes every time your new terminal opens, so you can now use the short command `tks` to kill your tmux session.
 
 > **Note:** To be more exact, this command will work from the next time you open a new terminal. If you want to use the `tks` command in
 > your current shell, you must run the command `source ~/.bashrc`, which executes the `~/.bashrc` file in the current shell.
@@ -178,10 +178,10 @@ Environment variables are dynamic values that affect the behavior of processes i
 They store configuration like your home directory (`$HOME`), executable search paths (`$PATH`),
 and application-specific settings such as `ROS_DISTRO`.
 
-a. Print the value of the `HOME` environment variable. This variable defines your home directory, `~`.
-b. Set the value of your `HOME` variable to `/home/racecar/racecar_ws` for the current session.
-c. List all environment variables currently set in your shell. You should see your `HOME` variable set to
-   `/home/racecar/racecar_ws`.
+**a.** Print the value of the `HOME` environment variable. This variable defines your home directory, `~`.\
+**b.** Set the value of your `HOME` variable to `/home/racecar/racecar_ws` for the current session.\
+**c.** List all environment variables currently set in your shell. You should see your `HOME` variable set to
+       `/home/racecar/racecar_ws`.
 
 Try running `cd ~ && pwd` now. You should see that your home directory is now set to `/home/racecar/racecar_ws`.
 This is an example of how environment variables affect the behavior of your processes. For example, in ROS,
