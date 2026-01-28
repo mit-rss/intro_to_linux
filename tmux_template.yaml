@@ -1,0 +1,31 @@
+session_name: rss_tmux_template
+windows:
+  - window_name: perception
+    layout: tiled
+    shell_command_before:
+      - source /opt/ros/humble/setup.bash
+      - source /home/$USER/.bashrc
+    panes:
+      - shell_command:
+        - echo "Hello world!"
+      
+      - shell_command:
+        - echo "Press ctrl-b, shift % to split vertically"
+      
+      - shell_command:
+        - echo "Press ctrl-b, shift \" to split horizontally"
+
+      - shell_command:
+        - echo "Press ctrl-b, n to go to the next window"
+  
+  - window_name: planning
+    layout: tiled
+    shell_command_before:
+      - source /opt/ros/humble/setup.bash
+      - source /home/$USER/.bashrc
+    panes:
+      - shell_command:
+        - htop
+
+      - shell_command:
+        - echo "Enter ctrl-b, :, kill-session to kill the session"

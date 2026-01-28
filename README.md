@@ -148,7 +148,7 @@ navigate inside a tmux session. Tmux uses `Ctrl+b` as the prefix key, meaning fo
 |---------------------------|-------------------------|
 | `Ctrl+b %`                | Split pane vertically   |
 | `Ctrl+b "`                | Split pane horizontally |
-| `Ctrl+b <arrow_key>`      | Siwtch between panes    |
+| `Ctrl+b <arrow_key>`      | Switch between panes    |
 | `Ctrl+b <Ctrl+arrow_key>` | Change pane size        |
 | `Ctrl+b c`                | Create new tab          |
 | `Ctrl+b n`                | Switch between tabs     |
@@ -165,18 +165,37 @@ More commands can be found in this [cheatsheet](https://tmuxcheatsheet.com/). Ex
 
 You should now see that your previous `racecar` session is saved. Again, run the command to detach from your current tmux session.
 
-**e.** Kill the `racecar` tmux session, ending all processes running in that session.\
+**e.** Kill the `racecar` tmux session, ending all processes running in that session.
+
 **f.** Enter a one-line command to add an alias `tks` for killing the current or most recently attached tmux session to `~/.bashrc`.
        Your `~/.bashrc` file executes every time your new terminal opens, so you can now use the short command `tks` to kill your tmux session.
 
+> **Hint:** Use the `echo` and redirect (`>>`) commands.
+
 > **Note:** To be more exact, this command will work from the next time you open a new terminal. If you want to use the `tks` command in
 > your current shell, you must run the command `source ~/.bashrc`, which executes the `~/.bashrc` file in the current shell.
+
+`~/.bashrc` is one of the many **dotfiles**. Dotfiles are configuration files that start with a dot (.), which makes them hidden by default.
+You cannot see them using the regular `ls` command; you need the `-a` flag (e.g., `ls -a ~`). These files customize your shell environment,
+editor settings, and various tools. For example, to configure your tmux keybindings, appearance, and behavior, you can
+create and modify the `~/.tmux.conf` file.
+
+**g.** Enter a one-line command to add the line `set -g mouse on` to your `~/.tmux.conf` file.
+
+Lastly, we can also use the `tmuxp` command to load `tmux` sessions from configuration files. We provide `tmux_template.yaml` which
+launches a tmux session named `rss_tmux_template` with multiple panes and tabs.
+
+**h.** Load `tmux_template.yaml` using `tmuxp`. 
+
+Explore the tmux session. With your new alias and `~/.tmux.conf` file, you should now be able to move between panes and tabs using
+your mouse and kill the tmux session by typing `tks`. You can explore other tmux configuration options
+[here](https://github.com/tmux/tmux/wiki/Getting-Started#configuring-tmux).
 
 ### Problem 5: Environment Variables
 
 Environment variables are dynamic values that affect the behavior of processes in your shell.
 They store configuration like your home directory (`$HOME`), executable search paths (`$PATH`),
-and application-specific settings such as `ROS_DISTRO`.
+and application-specific settings such as `$ROS_DISTRO`.
 
 **a.** Print the value of the `HOME` environment variable. This variable defines your home directory, `~`.\
 **b.** Set the value of your `HOME` variable to `/home/racecar/racecar_ws` for the current session.\
