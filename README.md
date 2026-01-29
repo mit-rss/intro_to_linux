@@ -1,8 +1,8 @@
-| Deliverable                                                                                           | Due Date                                                       |
-|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
-| Base Installation (nothing to submit)                                                                 | Wednesday, February 5th at 1:00PM EST                          |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710353) | Monday, February 10th at 1:00PM EST                            |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710354)   | Monday, February 10th at 1:00PM EST                            |
+| Deliverable                                                                                            | Due Date                              |
+|--------------------------------------------------------------------------------------------------------|---------------------------------------|
+| Base Installation (nothing to submit)                                                                  | Wednesday, February 4th at 1:00PM EST |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/1227626/assignments/7471274) | Monday,    February 9th at 1:00PM EST |
+| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/1227626/assignments/7471275)   | Monday,    February 9th at 1:00PM EST |
 
 # Intro to Linux
 
@@ -32,7 +32,7 @@ for setting up the course software is
 ## Gradescope Submission
 
 Once you have completed the exercises below and filled in your `linux_exercise.txt`, you will submit a `.zip`
-file named `lab1.zip` **containing your `lab1` directory** to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710353)
+file named `lab1.zip` **containing your `lab1` directory** to [Gradescope](https://www.gradescope.com/courses/1227626/assignments/7471274)
 under **Lab 1A: Intro To Linux**. In Linux, the correct zip command is `zip -r lab1 lab1`. When you unzip `lab1.zip`, you
 should see a directory named `lab1` containing a file named `linux_exercise.txt`.
           
