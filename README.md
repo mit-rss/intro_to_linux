@@ -1,8 +1,8 @@
-| Deliverable | Due Date              |
-|---------------|----------------------------------------------------------------------------|
-| Base Installation (nothing to submit)  | Wednesday, February 5th at 1:00PM EST |
-| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710353)  | Monday, February 10th at 1:00PM EST |
-| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710354)  | Monday, February 10th at 1:00PM EST |
+| Deliverable                                                                                           | Due Date                                                       |
+|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
+| Base Installation (nothing to submit)                                                                 | Wednesday, February 5th at 1:00PM EST                          |
+| Intro to Linux [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710353) | Monday, February 10th at 1:00PM EST                            |
+| Intro to Git [Gradescope Submission](https://www.gradescope.com/courses/973988/assignments/5710354)   | Monday, February 10th at 1:00PM EST                            |
 
 # Intro to Linux
 
@@ -27,16 +27,12 @@ can benefit from the answer. If you have a question about your
 individual submission, please make a private post. Make sure you're
 using a Debian terminal if you're testing the commands. Instructions
 for setting up the course software is
-[here](https://github.com/mit-rss/racecar_docker). Alternatively,
-you can use your Athena terminal to test commands by typing `ssh
-<kerberos>@athena.dialup.mit.edu` in your terminal, substituting
-`<kerberos>` for your own kerberos username. Most of the commands below
-should work, although a few of them may not.
+[here](https://github.com/mit-rss/racecar_docker).
 
 ## Gradescope Submission
 
 Once you have completed the exercises below and filled in your `linux_exercise.txt`, you will submit a `.zip`
-file named `lab1.zip` containing your `lab1` directory to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710353)
+file named `lab1.zip` **containing your `lab1` directory** to [Gradescope](https://www.gradescope.com/courses/973988/assignments/5710353)
 under **Lab 1A: Intro To Linux**. In Linux, the correct zip command is `zip -r lab1 lab1`. When you unzip `lab1.zip`, you
 should see a directory named `lab1` containing a file named `linux_exercise.txt`.
           
@@ -84,11 +80,18 @@ The first thing you need to learn in the command-line is how to
 navigate the filesystem and view the contents of directories and
 files.
 
-**a.** Navigate to your home directory.\
-**b.** Navigate to your root directory.\
+**a.** Navigate to your root directory.\
+**b.** Navigate to your home directory.\
 **c.** Navigate to the parent directory of your current directory.\
-**d.** List all the files/directories in your home directory, including hidden ones, in long listing format.\
-**e.** Print your current working directory.
+**d.** Create a new directory `~/test`.
+**e.** List all the files/directories in your home directory, including hidden ones, in long listing format.\
+**f.** Print your current working directory.
+**g.** Remove the new directory `~/test`.
+**h.** Display the contents of the file `/etc/bash.bashrc`.
+
+> **Note:** `/etc/bash.bashrc` is a system-wide file that is executed every time you open a new terminal. If you would like
+> to add custom commands, please modify `~/.bashrc` as done in problem 4, as changes outside the home directory are not
+> saved on `docker compose down`.
 
 ### Problem 2: Installing and Controlling Programs
 
@@ -120,8 +123,8 @@ credentials. This is how you will access the racecars.
 **a.** From your Docker container, log into a remote shell with the address `athena.dialup.mit.edu`
        and your kerberos as the username. This will give you secure remote access to a shell running on
        an Athena machine running Linux.\
-**b.** Logged into your Athena account, download the contents from `https://tinyurl.com/ya67uga4`
-       into a file named `pic.png` in your Athena home directory.\
+**b.** Logged into your Athena account, use `wget` to download the contents from
+       `https://tinyurl.com/ya67uga4` into a file named `pic.png` in your Athena home directory.\
 **c.** Exit the ssh session.\
 **d.** Using the `scp` command from your Docker container,
        move the photo you just downloaded from your Athena account, `~/pic.png`,
@@ -155,7 +158,7 @@ navigate inside a tmux session. Tmux uses `Ctrl+b` as the prefix key, meaning fo
 
 More commands can be found in this [cheatsheet](https://tmuxcheatsheet.com/). Explore some tmux commands!
 
-**b.** Detatch from your current tmux session. This is similar to "saving and exiting" your tmux session.
+**b.** Detach from your current tmux session. This is similar to "saving and exiting" your tmux session.
 
 > When answering this question, you can use the corresponding `tmux` command or the keybinding.
 > For the keybinding, enter in the following format: `Ctrl+b <key>`. For example, `Ctrl+b c` for creating a new tab.
@@ -165,10 +168,9 @@ More commands can be found in this [cheatsheet](https://tmuxcheatsheet.com/). Ex
 
 You should now see that your previous `racecar` session is saved. Again, run the command to detach from your current tmux session.
 
-**e.** Kill the `racecar` tmux session, ending all processes running in that session.
-
-**f.** Enter a one-line command to add an alias `tks` for killing the current or most recently attached tmux session to `~/.bashrc`.
-       Your `~/.bashrc` file executes every time your new terminal opens, so you can now use the short command `tks` to kill your tmux session.
+**e.** Kill the `racecar` tmux session, ending all processes running in that session.\
+**f.** Enter a one-line command to add an alias `tks` for `tmux kill-session` to `~/.bashrc`. Your `~/.bashrc`
+       file executes every time your new terminal opens, so you can now use the short command `tks` to kill your tmux session.
 
 > **Hint:** Use the `echo` and redirect (`>>`) commands.
 
