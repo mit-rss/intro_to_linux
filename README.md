@@ -25,7 +25,7 @@ have general questions, please post on
 [Piazza](https://piazza.com/mit/spring2026/64200164052124/home) so other students
 can benefit from the answer. If you have a question about your
 individual submission, please make a private post. Make sure you're
-using a Debian terminal if you're testing the commands. Instructions
+using an Ubuntu terminal if you're testing the commands. Instructions
 for setting up the course software is
 [here](https://github.com/mit-rss/racecar_docker).
 
@@ -99,7 +99,7 @@ files.
 
 One of the awesome features of UNIX-based operating systems is how simple it is to install
 programs through the terminal. For this problem, use the Advanced Packaging Tool or **APT**,
-which is the recommended way to install and manage Debian packages.
+which is the recommended way to install and manage Ubuntu packages.
 
 **a.** Install a program called `inxi`.\
 **b.** Many commands display useful information when called with the help option.
@@ -108,7 +108,7 @@ which is the recommended way to install and manage Debian packages.
        "man pages" or manual pages. Enter a command to view the `inxi` man page for more detailed information.\
 **d.** Use `inxi` to show information about your hardware disk info.\
 **e.** Uninstall `inxi`.\
-**f.** Update the list of available Debian packages.\
+**f.** Update the list of available Ubuntu packages.\
 **g.** Upgrade all existing packages.
 
 > **Note:** In APT, *updating* fetches the latest version of the package list,
@@ -143,7 +143,7 @@ Tmux allows us to run multiple terminals, see them all on the same screen, and r
 It can even allow us to run stuff in a terminal in the background, if we so desire. If we get super fancy, multiple people
 can attach to the same tmux session, and look at the same stuff at the same time.
 
-**a.** Start a new tmux session named `racecar`.
+**a.** Start a new tmux session named `racecar` from an existing terminal.
 
 Now you should be in a tmux session! The following are some useful but by no means extensive set of commands to
 navigate inside a tmux session. Tmux uses `Ctrl+b` as the prefix key, meaning for the command `Ctrl+b d`, you press
@@ -184,7 +184,8 @@ You cannot see them using the regular `ls` command; you need the `-a` flag (e.g.
 editor settings, and various tools. For example, to configure your tmux keybindings, appearance, and behavior, you can
 create and modify the `~/.tmux.conf` file.
 
-**g.** Enter a one-line command to add the line `set -g mouse on` to your `~/.tmux.conf` file.
+**g.** Enter a one-line command to add the line `set -g mouse on` to your `~/.tmux.conf` file. This allows you to click
+       to select panes, resize windows, and scroll with your mouse wheel in tmux sessions.
 
 Lastly, we can also use the `tmuxp` command to load `tmux` sessions from configuration files. We provide `tmux_template.yaml` which
 launches a tmux session named `rss_tmux_template` with multiple panes and tabs.
