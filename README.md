@@ -50,6 +50,8 @@ resources as you need.
 5. [Pipes and filters](https://swcarpentry.github.io/shell-novice/04-pipefilter.html)
 6. [Finding things](https://swcarpentry.github.io/shell-novice/07-find.html)
 
+Additionally, you may find the following IAP course useful: [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/).
+
 ## Instructions
 
 1. Clone this repository by typing `git clone
@@ -83,10 +85,10 @@ files.
 **a.** Navigate to your root directory.\
 **b.** Navigate to your home directory.\
 **c.** Navigate to the parent directory of your current directory.\
-**d.** Create a new directory `~/test`.
+**d.** Create a new directory `~/test`.\
 **e.** List all the files/directories in your home directory, including hidden ones, in long listing format.\
-**f.** Print your current working directory.
-**g.** Remove the new directory `~/test`.
+**f.** Print your current working directory.\
+**g.** Remove the new directory `~/test`.\
 **h.** Display the contents of the file `/etc/bash.bashrc`.
 
 > **Note:** `/etc/bash.bashrc` is a system-wide file that is executed every time you open a new terminal. If you would like
