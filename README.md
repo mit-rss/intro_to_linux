@@ -104,8 +104,9 @@ which is the recommended way to install and manage Ubuntu packages.
 **a.** Install a program called `inxi`.\
 **b.** Many commands display useful information when called with the help option.
        Enter a command to show the `inxi` help menu in the terminal to see what it does.\
-**c.** Additionally, there is a universally available reference bundled with almost every Unix system called
-       "man pages" or manual pages. Enter a command to view the `inxi` man page for more detailed information.\
+**c.** ~Additionally, there is a universally available reference bundled with almost every Unix system called
+       "man pages" or manual pages. Enter a command to view the `inxi` man page for more detailed information.~\
+       The docker container we provide does not provide the `man` command. For this question, enter `man inxi`.\
 **d.** Use `inxi` to show information about your hardware disk info.\
 **e.** Uninstall `inxi`.\
 **f.** Update the list of available Ubuntu packages.\
