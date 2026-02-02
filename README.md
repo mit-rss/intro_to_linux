@@ -31,7 +31,7 @@ for setting up the course software is
 
 ## Gradescope Submission
 
-Once you have completed the exercises below and filled in your `linux_exercise.txt`, you will submit a `.zip`
+Once you have completed the exercises below and filled in your `lab1/linux_exercise.txt`, you will submit a `.zip`
 file named `lab1.zip` **containing your `lab1` directory** to [Gradescope](https://www.gradescope.com/courses/1227626/assignments/7471274)
 under **Lab 1A: Intro To Linux**. In Linux, the correct zip command is `zip -r lab1 lab1`. When you unzip `lab1.zip`, you
 should see a directory named `lab1` containing a file named `linux_exercise.txt`.
@@ -57,14 +57,15 @@ Additionally, you may find the following IAP course useful: [The Missing Semeste
 1. Clone this repository by typing `git clone
    https://github.com/mit-rss/intro_to_linux.git` into your terminal. 
    **Please make sure you do this in ~/racecar_ws/src if you are using the Docker image.**
-2. Place your answers to problems 1-5 in `linux_exercise.txt`. Every command
+2. Place your answers to problems 1-5 in `lab1/linux_exercise.txt`. Do not create your own
+   `linux_exercise.txt`Every command
    should go between the `#####<question_number>#######` and `#####End of Question#######` lines.
 3. During this class, you will need to be familiar with at least one
    terminal-based text editor like [vim](https://www.vim.org/),
    [nano](https://www.nano-editor.org/), or
    [emacs](https://www.gnu.org/software/emacs/). We recommend getting
    some practice with a terminal-based text editor when you're editing
-   `linux_exercise.txt`.
+   `lab1/linux_exercise.txt`.
 4. Run `sanity_checker.py` to double check that your answers are
    correctly formatted.
 5. Provide a single command for each of the following problems. If
