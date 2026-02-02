@@ -58,7 +58,7 @@ Additionally, you may find the following IAP course useful: [The Missing Semeste
    https://github.com/mit-rss/intro_to_linux.git` into your terminal. 
    **Please make sure you do this in ~/racecar_ws/src if you are using the Docker image.**
 2. Place your answers to problems 1-5 in `lab1/linux_exercise.txt`. Do not create your own
-   `linux_exercise.txt`Every command
+   `linux_exercise.txt`, make sure you use the given template. Every command
    should go between the `#####<question_number>#######` and `#####End of Question#######` lines.
 3. During this class, you will need to be familiar with at least one
    terminal-based text editor like [vim](https://www.vim.org/),
