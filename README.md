@@ -81,7 +81,8 @@ Complete the following exercises **inside your Docker container** to access a Li
 
 The first thing you need to learn in the command-line is how to
 navigate the filesystem and view the contents of directories and
-files.
+files. Please enter a single-line **command** (not the result of the command)
+to `lab1/linux_exercise.txt` for each problem.
 
 **a.** Navigate to your root directory.\
 **b.** Navigate to your home directory.\
