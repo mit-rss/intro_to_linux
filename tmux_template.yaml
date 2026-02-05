@@ -4,7 +4,7 @@ windows:
     layout: tiled
     shell_command_before:
       - source /opt/ros/humble/setup.bash
-      - source /home/$USER/.bashrc
+      - source /home/racecar/.bashrc
     panes:
       - shell_command:
         - echo "Hello world!"
@@ -13,7 +13,7 @@ windows:
         - echo "Press ctrl-b, shift % to split vertically"
       
       - shell_command:
-        - echo "Press ctrl-b, shift \" to split horizontally"
+        - echo "Press ctrl-b, shift " to split horizontally"
 
       - shell_command:
         - echo "Press ctrl-b, n to go to the next window"
@@ -22,7 +22,7 @@ windows:
     layout: tiled
     shell_command_before:
       - source /opt/ros/humble/setup.bash
-      - source /home/$USER/.bashrc
+      - source /home/racecar/.bashrc
     panes:
       - shell_command:
         - htop
